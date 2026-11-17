@@ -1,0 +1,48 @@
+/* PRISMWAKE — dawn-light palette: deep indigo night, warm amber dawn,
+   and the six beam hues. One terracotta frame for every panel, one big
+   number per panel, so the game reads at a glance when shrunk. */
+:root {
+  --night: #0b0e1e;
+  --night-2: #141832;
+  --panel: #1b2040;
+  --panel-line: #c97b4a;
+  --ink: #f4ead8;
+  --ink-dim: #b9b3a4;
+  --amber: #ffb347;
+  --gold: #ffd166;
+  --red: #ff5a5a;
+  --green: #5aff8a;
+  --blue: #5aa8ff;
+  --yellow: #ffe14d;
+  --magenta: #ff5ad0;
+  --cyan: #4de8ff;
+  --white: #ffffff;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; background: #05060f; }
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Segoe UI", Verdana, sans-serif;
+  color: var(--ink);
+  overflow: hidden;
+}
+#stage {
+  width: 1280px;
+  height: 800px;
+  max-width: 100vw;
+  max-height: 100vh;
+  position: relative;
+  background: radial-gradient(1200px 700px at 50% -10%, #2a2350 0%, var(--night) 55%, #05060f 100%);
+}
+#game {
+  display: block;
+  width: 1280px;
+  height: 800px;
+  outline: none;
+  cursor: crosshair;
+}
+#fallback { padding: 48px; text-align: center; }
+#fallback h1 { color: var(--gold); letter-spacing: 6px; margin-bottom: 16px; }
+#fallback p { color: var(--ink-dim); line-height: 1.6; max-width: 520px; margin: 0 auto; }

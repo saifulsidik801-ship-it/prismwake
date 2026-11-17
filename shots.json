@@ -1,0 +1,169 @@
+{
+  "seed": 2013,
+  "shots": {
+    "cover": {
+      "file": "1-cover.jpg",
+      "bytes": 213131,
+      "meanLuminance": 0.721,
+      "minBlockLuminance": 0.152,
+      "note": "Cover: night 4, 8 shades, GLEAM x2.",
+      "truthPass": true,
+      "truthChecks": [
+        {
+          "name": "lumen",
+          "shown": 187,
+          "rebuilt": 187,
+          "pass": true
+        },
+        {
+          "name": "burned-total",
+          "shown": 39,
+          "rebuilt": 39,
+          "pass": true
+        },
+        {
+          "name": "score-sane",
+          "shown": 12290,
+          "rebuilt": 12290,
+          "pass": true
+        },
+        {
+          "name": "lantern-range",
+          "shown": 9,
+          "rebuilt": 9,
+          "pass": true
+        },
+        {
+          "name": "night-range",
+          "shown": 4,
+          "rebuilt": 4,
+          "pass": true
+        }
+      ],
+      "consoleErrors": []
+    },
+    "title": {
+      "file": "2-title.jpg",
+      "bytes": 113666,
+      "meanLuminance": 0.137,
+      "minBlockLuminance": 0.057,
+      "note": "Title screen, dawn difficulty selected.",
+      "truthPass": true,
+      "truthChecks": [
+        {
+          "name": "lumen",
+          "shown": 120,
+          "rebuilt": 120,
+          "pass": true
+        },
+        {
+          "name": "burned-total",
+          "shown": 0,
+          "rebuilt": 0,
+          "pass": true
+        },
+        {
+          "name": "score-sane",
+          "shown": 0,
+          "rebuilt": 0,
+          "pass": true
+        },
+        {
+          "name": "lantern-range",
+          "shown": 10,
+          "rebuilt": 10,
+          "pass": true
+        },
+        {
+          "name": "night-range",
+          "shown": 1,
+          "rebuilt": 1,
+          "pass": true
+        }
+      ],
+      "consoleErrors": []
+    },
+    "draft": {
+      "file": "3-draft.jpg",
+      "bytes": 134352,
+      "meanLuminance": 0.116,
+      "minBlockLuminance": 0.035,
+      "note": "Draft after night 1: 3 choices.",
+      "truthPass": true,
+      "truthChecks": [
+        {
+          "name": "lumen",
+          "shown": 163,
+          "rebuilt": 163,
+          "pass": true
+        },
+        {
+          "name": "burned-total",
+          "shown": 7,
+          "rebuilt": 7,
+          "pass": true
+        },
+        {
+          "name": "score-sane",
+          "shown": 1357,
+          "rebuilt": 1357,
+          "pass": true
+        },
+        {
+          "name": "lantern-range",
+          "shown": 9,
+          "rebuilt": 9,
+          "pass": true
+        },
+        {
+          "name": "night-range",
+          "shown": 1,
+          "rebuilt": 1,
+          "pass": true
+        }
+      ],
+      "consoleErrors": []
+    },
+    "win": {
+      "file": "4-win.jpg",
+      "bytes": 136395,
+      "meanLuminance": 0.118,
+      "minBlockLuminance": 0.035,
+      "note": "Win on DUSK, seed 2013, score 139125, 202 burned.",
+      "truthPass": true,
+      "truthChecks": [
+        {
+          "name": "lumen",
+          "shown": 3488,
+          "rebuilt": 3488,
+          "pass": true
+        },
+        {
+          "name": "burned-total",
+          "shown": 202,
+          "rebuilt": 202,
+          "pass": true
+        },
+        {
+          "name": "score-sane",
+          "shown": 139125,
+          "rebuilt": 139125,
+          "pass": true
+        },
+        {
+          "name": "lantern-range",
+          "shown": 7,
+          "rebuilt": 7,
+          "pass": true
+        },
+        {
+          "name": "night-range",
+          "shown": 9,
+          "rebuilt": 9,
+          "pass": true
+        }
+      ],
+      "consoleErrors": []
+    }
+  }
+}
